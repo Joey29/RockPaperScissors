@@ -28,7 +28,7 @@ public class RockPaperScissors {
 			case 1 : input = "Rock"; break;
 			case 2 : input = "Paper";break;
 			case 3 : input = "Scissors"; break;
-			default: break;
+			default: System.out.println("Please enter a number from 1 to 3."); break;
 			}
 			
 			if (num == comResult1)
